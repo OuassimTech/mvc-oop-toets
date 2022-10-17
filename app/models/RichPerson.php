@@ -6,7 +6,7 @@
       $this->db = new Database();
     }
 
-    public function getUsers() {
+    public function getRichestPeople() {
       $this->db->query("SELECT * FROM `RichestPeople`;");
 
       $result = $this->db->resultSet();
