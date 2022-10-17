@@ -14,7 +14,6 @@ class RichestPeople extends Controller {
     $rows = '';
     foreach ($richestPeople as $value){
       $rows .= "<tr>
-                  <td>$value->Id</td>
                   <td>$value->MyName</td>
                   <td>$value->Networth</td>
                   <td>$value->Age</td>
