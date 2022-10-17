@@ -7,7 +7,7 @@
     }
 
     public function getUsers() {
-      $this->db->query("SELECT * FROM `country`;");
+      $this->db->query("SELECT * FROM `RichestPeople`;");
 
       $result = $this->db->resultSet();
 
