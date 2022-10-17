@@ -15,7 +15,7 @@
     }
 
     public function deleteRichPerson($Id) {
-      $this->db->query("DELETE FROM RichPeople WHERE Id = :Id");
+      $this->db->query("DELETE FROM RichestPeople WHERE Id = :Id");
       $this->db->bind("Id", $Id, PDO::PARAM_INT);
       return $this->db->execute();
     }
